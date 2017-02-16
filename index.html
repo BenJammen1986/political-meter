@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script
+    src="https://code.jquery.com/jquery-3.1.1.js"
+    integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+    crossorigin="anonymous"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/scripts.js"></script>
+    <title>Political Meter</title>
+  </head>
+  <body>
+    <div class="container">
+    <h1>Where are you on the political scale?</h1>
+    <h2>How terrible of a person are you?</h2>
+    <form id="userInput">
+      <div class="formDiv">
+        <div class="row">
+          <div class="col-md-6">
+          <div class="question">
+          <div class="radio">
+            <h4>Donald Trump is my Hero!</h4>
+            <label>
+              <input type="radio" name="trump" value="3" checked>
+              Strongly Agree
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="trump" value="2">
+              Apathetic
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="trump" value="1">
+              Strongly Disagree
+            </label>
+          </div>
+        </div>
+        <div class="question">
+          <div class="radio">
+            <h4>Everyone should carry a gun</h4>
+            <label>
+              <input type="radio" name="gun" value="3" checked>
+              Strongly Agree
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="gun" value="2">
+              Apathetic
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="gun" value="1">
+              Strongly Disagree
+            </label>
+          </div>
+        </div>
+        <div class="question">
+          <div class="radio">
+            <h4>America is the only great nation in the world</h4>
+            <label>
+              <input type="radio" name="america" value="3" checked>
+              Strongly Agree
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="america" value="2">
+              Apathetic
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="america" value="1">
+              Strongly Disagree
+            </label>
+          </div>
+        </div>
+        <div class="question">
+          <div class="radio">
+            <h4>All immigrants are criminals</h4>
+            <label>
+              <input type="radio" name="immigrants" value="3" checked>
+              Strongly Agree
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="immigrants" value="2">
+              Apathetic
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="immigrants" value="1">
+              Strongly Disagree
+            </label>
+          </div>
+        </div>
+        <div class="question">
+          <div class="radio">
+            <h4>The earth is flat</h4>
+            <label>
+              <input type="radio" name="flat" value="3" checked>
+              Strongly Agree
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="flat" value="2">
+              Apathetic
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="flat" value="1">
+              Strongly Disagree
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="question">
+          <div class="radio">
+            <h4>There's no such thing as global warming</h4>
+            <label>
+              <input type="radio" name="global" value="3" checked>
+              Strongly Agree
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="global" value="2">
+              Apathetic
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="global" value="1">
+              Strongly Disagree
+            </label>
+          </div>
+        </div>
+        <div class="question">
+          <div class="radio">
+            <h4>There should be no minimum wage</h4>
+            <label>
+              <input type="radio" name="wage" value="3" checked>
+              Strongly Agree
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="wage" value="2">
+              Apathetic
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="wage" value="1">
+              Strongly Disagree
+            </label>
+          </div>
+        </div>
+        <div class="question">
+          <div class="radio">
+            <h4>Dogs should go extinct</h4>
+            <label>
+              <input type="radio" name="Dogs" value="3" checked>
+              Strongly Agree
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="Dogs" value="2">
+              Apathetic
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="Dogs" value="1">
+              Strongly Disagree
+            </label>
+          </div>
+        </div>
+        <div class="question">
+          <div class="radio">
+            <h4>Most of the clothes in my closet are made from endangered animals</h4>
+            <label>
+              <input type="radio" name="clothes" value="3" checked>
+              Strongly Agree
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="clothes" value="2">
+              Apathetic
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="clothes" value="1">
+              Strongly Disagree
+            </label>
+          </div>
+        </div>
+        <div class="question">
+          <div class="radio">
+            <h4>The human population should be limited to 500 million</h4>
+            <label>
+              <input type="radio" name="population" value="3" checked>
+              Strongly Agree
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="population" value="2">
+              Apathetic
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="population" value="1">
+              Strongly Disagree
+            </label>
+          </div>
+          </div>
+        </div>
+        </div>
+        <div class="button">
+          <button type="submit" class="btn btn-primary" name="button">Submit</button>
+        </div>
+        <blockquote id="answer1">Pretty Terrible
+        </blockquote>
+        <blockquote id="answer2">Somewhat Terrible
+        </blockquote>
+        <blockquote id="answer3">Not that Terrible
+        </blockquote>
+      </div>
+    </form>
+  </body>
+</html>
